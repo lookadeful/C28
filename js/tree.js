@@ -6,7 +6,7 @@ class tree {
 		this.dustbinHeight=600;
 		this.wallThickness=10;
 		
-		this.image=loadImage("imágenes/tree.png")
+		this.image=loadImage("Imagenes/tree.png")
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
 		this.leftWallBody=Bodies.rectangle(0, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:false})
 		this.rightWallBody=Bodies.rectangle(this.x+this.dustbinWidth/2, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:false})
